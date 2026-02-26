@@ -165,6 +165,8 @@ hr {
     justify-content: center;
     gap: 25px;
     margin-top: 10px;
+    width: 100%;
+    padding: 0;
 }
 
 /* Icon size */
@@ -187,3 +189,4 @@ hr {
     transition: 0.1s ease;
 
 }
+
