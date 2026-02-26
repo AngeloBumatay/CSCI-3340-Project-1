@@ -162,10 +162,9 @@ hr {
 /* Posted tweet icons */
 .sample-icons {
     display: flex;
-    gap: 120px;
+    justify-content: center;
+    gap: 25px;
     margin-top: 10px;
-    max-width: 420px;
-    padding-left: 18px;
 }
 
 /* Icon size */
@@ -186,4 +185,5 @@ hr {
 .sample-icons img:active {
     transform: scale(0.9);
     transition: 0.1s ease;
+
 }
