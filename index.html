@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweeter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar: Logo and Site name-->
+     <header class = "top-bar">
+            <img src="Images/Tweeter-Blue-Logo.png" alt="Tweeter Logo">
+            <h1>Tweeter</h1>
+     </header>
+     
+     <hr>
+
+    <!-- Main Content Area:
+        1. Photo holder (gray cricle) to include pfp
+        2. HTML text area for tweet
+        3. Button labeled "Tweet"
+        4. Label showing character count
+        5. Show sample tweet that includes all above + date/time posted and four icons
+                for comment, retweet, link, and upload
+    -->
+    <div class="blue-background">
+    <!-- Tweet Area -->
+        <div class="main-content">
+            <div class="top-section">
+                <img src="Images/Empty-PFP.jpg" alt="PFP">
+                <textarea id="tweetInput" placeholder="What's happening?"></textarea>
+            </div>
+            <div class="bottom-section">
+                <label id="charLabel">160 characters remaining</label>
+                <button id="tweetButton">Tweet</button>
+            </div>
+            <hr class= "tweet-area-divider">
+    <!-- Sample Tweet -->
+            <div class="sample-tweet">
+                <div class="sample-top-section">
+                    <img src="Images/Empty-PFP.jpg" alt="PFP">
+                    <div class="sample-user-info">
+                        <div class="user-header">
+                            <span class="username">Angelo Bumatay</span>
+                            <span class="handle">@AngeloROCKZ</span>
+                            <span class="timestamp">- 6hr</span>
+                        </div>
+                        <p class="posted-tweet">I can't wait till I graduate!</p>
+                        <div class="sample-icons">
+                            <img src="Images/Comment.png" alt="Comment Icon">
+                            <img src="Images/retweet.png" alt="Retweet Icon">
+                            <img src="Images/like.png" alt="Like Icon">
+                            <img src="Images/upload.png" alt="Upload Icon">
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add JS file -->
+        <script src="tweet.js"></script>
+
+</body>
+</html>

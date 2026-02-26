@@ -1,0 +1,189 @@
+/* Default page background */
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Background after separator */
+.blue-background {
+    background-color: #CAE9F5;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+/* Top navigation bar */
+.top-bar  {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+/* Logo */
+.top-bar img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Header for nav bar */
+.top-bar h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #1DA1F2;
+}
+
+/* Seperator from nav bar to tweet section */
+hr {
+    width: 100%;
+    border-color: rgba(230, 220, 220, 0.479);
+    margin: 0;
+    border: 100px;
+}
+
+
+
+
+/* PFP */
+.main-content img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Tweet section */
+.main-content {
+    background-color: white;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Text area for tweet */
+.main-content textarea {
+    flex: 1;;
+    border: none;
+    background: transparent;
+    resize: none;
+    height: 90px;
+    font-size: 18px;
+    outline: none;
+}
+
+/* Tweet box and PFP */
+.top-section {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+/* Chars remaining and Tweet button */
+.bottom-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Tweet Button */
+.bottom-section button {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Tweet Button Hover Effect */
+.bottom-section button:hover {
+    background-color: #1A8CD8;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Tweet Button Active Effect */
+.bottom-section button:active {
+    background-color: #177CC0;
+    transform: scale(0.9);
+}
+
+/* Chars remaining */
+.bottom-section label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Separator from tweet section to feed */
+.tweet-area-divider {
+    border: none;
+    border-top: 2px solid rgba(200, 200, 200, 0.4); 
+    margin: 25px 0;
+}
+
+/* Username from previous tweet */
+.username {
+    font-weight: bold;
+    font-size: 17px;
+    color: #14171A;
+}
+
+/* Handle from previous tweet */
+.handle {
+    color: #657786;
+    font-size: 14px;
+}
+
+/* Timestamp from previous tweet */
+.timestamp {
+    color: #657786;
+    font-size: 14px;
+}
+
+/* Posted tweet top section */
+.sample-top-section {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+/* Posted tweet text */
+.posted-tweet {
+    display: block;
+    margin-top: 4px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Posted tweet icons */
+.sample-icons {
+    display: flex;
+    gap: 120px;
+    margin-top: 10px;
+    max-width: 420px;
+    padding-left: 18px;
+}
+
+/* Icon size */
+.sample-icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Icon hover effect */
+.sample-icons img:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: 0.15s ease;
+}
+
+/* Icon active effect */
+.sample-icons img:active {
+    transform: scale(0.9);
+    transition: 0.1s ease;
+}
